@@ -1,3 +1,6 @@
+body{
+    scroll-behavior:smooth;
+}
 body a {
     text-decoration: none;
     color: black;
@@ -53,23 +56,42 @@ nav .searchBar{
     margin-right: 2rem;
     
 }
+
+
 nav .searchBar:focus{
     outline: none;
 }
 
-
+.lineonly{
+    border: 3px solid transparent;
+    width: 5.5rem;
+    margin: 20px auto;
+    border-image: radial-gradient(circle,rgba(255, 255, 255, 1) 4%, rgba(235, 181, 5, 0.507) 73%);
+     border-image-slice: 1; 
+}
 .imgDiv img {
     width: 100%;
     height: 100%;
 
 }
-
+.tipsDiv img{
+    width: 95%;
+    border-radius: 0%;
+}
+.tipsDiv a{
+    color: navy;
+}
 .secondDiv {
     background-color: #1c355b;
 }
 .secondDiv button{
     border-radius: 0%;
     background-color: white;
+}
+.blueDiv button{
+    border-radius: 0%;
+    background-color: white;
+
 }
 .secondDiv .containDiv{
     margin-top: 6rem;
@@ -121,9 +143,11 @@ footer .lastDiv {
 .lastDiv img {
     width: 4rem;
 }
-
+.sectionItem .card{
+    border: 10px solid white;
+}
 .sectionItem .card:hover {
     box-shadow: 2px 3px 10px black;
-    border-bottom: 8px solid goldenrod;
+    border-bottom: 10px solid goldenrod;
 }
 
